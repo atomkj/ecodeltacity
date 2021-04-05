@@ -20,7 +20,6 @@
 #mainVideo{
     position:absolute; 
     left:50%;
-    margin-left:-360px;
     transform:translate(-50%, -13%);
 }
 .mainTxt{
@@ -74,9 +73,9 @@
 .conTit::after{
     content:"";
     display:block;
-    width:57%;
+    width:60%;
     border-bottom:2px solid #000;
-    margin-left:40%;
+    margin-left:38%;
     margin-top:-10px; 
     
 }
@@ -97,11 +96,12 @@
 
 .bgTit{
     position:absolute;
-    top:25%;
+    top:0;
     left:0;
     right:0;
     bottom:0;
     margin:auto;
+    padding:20% 10%; 
     color:#fff;
     font-size:12px;
     font-weight:200;  
@@ -116,7 +116,7 @@
 .titB{
     font-size:10px;
     font-weight:100;
-    margin-top:10px; 
+    margin-top:10%; 
 }
 .titB span{
     color:#fff;
@@ -214,22 +214,25 @@
     background:#f6f6f6;
     text-align:center;
     border-top:1px solid #666;  
-    border-bottom:1px solid #666;  
+    border-bottom:1px solid #666;
+    
 }
 
 .con03Icon{
-    display:inline-block;
-    padding-top:20px; 
-   
+    text-align:center; 
+    padding-top:20px;
+    width:100%;
+    
 }
 .con03Icon li{
-    float:left;
     background:#e5e7e5;
-    margin-right:20px; 
+    margin-right:5%; 
     width:100px;
     height:100px;
     border-radius:50%;
     position:relative;
+    display:inline-block;
+    
 }
 .con03Icon li:last-child{
     margin-right:0; 
@@ -256,7 +259,7 @@
 }
 
 .con04Box{
-    padding:20px 10px;
+    padding:20px 13px;
    
 }
 .con04Menu{
