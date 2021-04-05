@@ -114,14 +114,14 @@
   
 }
 .titB{
-    font-size:10px;
-    font-weight:100;
-    margin-top:10%; 
+    font-size:12px;
+    font-weight:200;
+    margin-top:5%; 
 }
 .titB span{
     color:#fff;
     display:block;
-    margin-bottom:30px; 
+    margin-top:5px; 
 }
 .moreBtn{
     text-align:center; 
